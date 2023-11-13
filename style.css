@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+* { 
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+li, a {
+    font-family: 'Pixelify Sans', cursive;
+    font-weight: 500;
+    font-size: 16px;
+    color: rgb(150, 166, 180);
+    text-decoration: none;
+}
+
+.Navbar { 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1px 10%;
+    background-color: rgb(12, 7, 27);
+    position: sticky;
+    top: 0;
+}
+
+.logo {
+    cursor: pointer;
+}
+
+.navlinks {
+    list-style: none;
+}
+
+.navlinks li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.navlinks li a{
+    transition: all 1s ease 0s;
+}
+
+.navlinks li a:hover{
+    color: rgb(255, 255, 255);
+}
+
+.Intro {
+    background-image: url(Image/Background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 0%;
+    padding: 10px 30%;
+}
+
+.Intro h1{
+    font-size: 70px;
+    color: rgb(255, 255, 255);
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0%;
+}
+
+.Intro h2{
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0%;
+}
+
+.meat{
+    padding: 5%;
+    text-align: center;
+    border: 3px solid rgba(0, 128, 0, 0);
+}
+
+
+.meat img{
+    padding: 5%;
+}
+
+.meat h2{
+    font-family: 'Pixelify Sans', cursive;
+}
+
+.meat h1{
+    font-family: 'Oswald', sans-serif;
+
+}
+
+.box{
+    position: relative;
+    width: 224px;
+    height: 400px;
+    display: inline-block;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 15px;
+    border: 2px solid #00000000;
+}
+
+.box2{
+    position: relative;
+    width: 224px;
+    height: 600px;
+    display: inline-block;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 15px;
+    border: 2px solid #00000000;
+}
+
+.box2 img{
+    width: 100%;
+    transition: all linear 0.7s;
+}
+
+.box2 img.Hi{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.box2:hover img{
+    opacity: 0;
+}
+
+.box2:hover img.Hi{
+    opacity: 1;
+}
+.box2 h2{
+    top: 10%;
+} 
+
+.box img{
+    width: 100%;
+    transition: all linear 0.7s;
+}
+
+.box img.Hi{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.box:hover img{
+    opacity: 0;
+}
+
+.box:hover img.Hi{
+    opacity: 1;
+}
+.box h2{
+    top: 10%;
+}
+
+.staff{
+    text-align: center;
+    padding: 5%;
+    background-color: #ffffff;
+}
+
+.staff h1{
+    font-family: 'Oswald', sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+.staff h2{
+    font-family: 'Pixelify Sans', cursive;
+    color: rgb(0, 0, 0);
+}
+
+.REaAL{
+    display: block;
+}
+
+.rights{
+    display: flex;
+    list-style: none;
+    padding: 5%;
+    background-color: #674fa0;
+}
+
+.rights h2{
+    color: #ffffff;
+}
+
+.aaaa{
+    display: block;
+}
+
+.rights h2{
+    font-family: 'Oswald', sans-serif;
+}
+
+.screenshots{
+    text-align: center;
+    padding: 5%;
+    background-color: #1A0736;
+}
+
+.aaaaas{
+    display: flex;
+}
+
+.screenshots h1{
+    text-align: center;
+    display: block;
+    color: #ffffff;
+    font-family: 'Oswald', sans-serif;
+}
+
+@media all and (max-width: 425px) {
+    .Intro {
+        background-image: url(Image/1.gif);
+        background-size: cover;
+        background-repeat: no-repeat;
+        min-height: 0%;
+        padding: 10px 30%;
+    }
+}
+
